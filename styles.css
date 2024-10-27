@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #6a0dad;
+    background-image: linear-gradient(rgba(106, 13, 173, 0.85), rgba(106, 13, 173, 0.85)), url('https://source.unsplash.com/featured/?coding,books'); 
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #8a2be2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5a189a;
+}
+
+#sectionQuizContainer, #sectionResult {
+    display: none;
+}
+
+#sectionAnswers {
+    margin: 20px 0;
+}
+
+#sectionAnswers button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #8a2be2;
+    border-radius: 5px;
+}
+
+#sectionAnswers button:hover {
+    background-color: #5a189a;
+}
+
+#sectionNext {
+    margin-top: 20px;
+}
+
+#sectionResult {
+    margin-top: 20px;
+}
